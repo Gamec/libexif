@@ -13,8 +13,9 @@ media exif tool for iOS
   s.source           = { :git => 'https://github.com/John1261/libexif.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.10'
 
   s.source_files = 'libexif/libexif/*.framework/Headers/*.h'
-  s.ios.vendored_frameworks = 'libexif/libexif/*.framework'
+  s.vendored_frameworks = 'libexif/libexif/*.framework'
 
 end
